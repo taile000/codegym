@@ -1,0 +1,38 @@
+/* Border là đường viền của bảng
+    table là bảng
+    th là tiêu đầu của bảng
+    td là nội dung trong bảng theo hàng ngang  */
+table, th, td {
+    border: 1px solid black;
+}
+/* Width là chiều rộng của bảng
+height là chiều cao của bảng */
+th {
+    width: 20px;
+    height: 30px;
+}
+/* Border-collapse là bỏ đường viền của bảng */
+table {
+    border-collapse: collapse;
+    width: 35%;
+}
+/* - text-align là căn chỉnh theo chiều ngang, 
+- padding là khoảng cách giữa viền và chữ */
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+/* - Vertical-align là căn chỉnh theo chiều dọc, cũng có nghĩa là theo chiều lên xuống */
+td {
+    vertical-align: bottom;
+    height: 20px;
+}
+/* background-color là màu nền */
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+/* ntn-child(even/odd) chứa phần tử có con chỉ mục chẳn/lẻ = even/odd */
+tr:nth-child(even) { 
+    background-color: #838383;
+}

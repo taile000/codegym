@@ -1,0 +1,57 @@
+
+ul.a {
+        /* list-style-type:  circle; là tạo pointer của unorder list có hình tròn */
+    list-style-type:  circle;
+        /* list-style-position: inside; thiết lập vị trí của unorder list thụt lùi vào bên trong */
+    list-style-position: inside;
+    background: #ff92ff99;
+    padding: 20px;
+    width: 580px;    
+}
+
+ul.b {
+        /* list-style-type: square; tạo poiter của unorder list có hình vuông */
+    list-style-type: square;
+    background: #ff9499;
+    padding: 20px;
+    width: 580px;
+}
+ol.c {
+        /* list-style-type: upper-roman; tạo poiter của order list có số la mã */
+    list-style-type: upper-roman;
+    list-style-position: inside;
+    background: #3399ff;
+    padding: 20px;
+    width: 580px;
+}
+
+ol.d {
+        /* list-style-type: lower-alpha; tạo poiter của order list có thứ tự bản chữ cái viết thường */
+    list-style-type: lower-alpha;
+        /* list-style-position: outside; thiết lập vị trí của unorder list thụt lùi nằm ngoài */
+    list-style-position: outside;
+    background: #ff9999;
+    /* padding là khoảng cách giữa viền và chữ */
+    padding: 20px;
+    width: 580px;
+}
+ol li {
+    background: #ffe5e5;
+    padding: 5px;
+        /* margin-left là nội dung của li cách border của ol 1 khoảng 35px về phía bên trái */
+    margin-left: 20px;
+    width: 537px;}
+ol.c li {
+        background: #ffe5e5;
+        padding: 5px;
+        margin-left: 20px;
+        width: 537px;}
+ul li {
+    background: #ffe5e5;
+    padding: 5px;
+    margin-left: 20px;
+    width: 537px;}
+ul { /*list-style-image là tạo pointer của unorder list có hình ảnh được gắn vào */
+        list-style-image: url('sqpurple.gif');
+      }
+
