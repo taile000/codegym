@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>FB Layout</title>
 </head>
 <style>
     #header {
@@ -16,28 +16,67 @@
     #sidebar {
         float:left ;
         display: inline;
-        width: 20%;
+        width: 15%;
         background-color: rgb(218, 209, 209);
         padding: 10px;
     }
     #stt {
         float:left ;
-        display: inline;
         width: 50%;
-        height: 50px;
-        background-color: antiquewhite;
+        height: 500px;
+        background-color: lightgrey;
         padding: 5px;
     }
-    #newfeed {
-        
+    .stt1 {
+        height: 100px;
+        background-color: rgb(255, 253, 250);
+        border: 1 solid lightgrey;
+        border-radius: 5px;
+        margin-bottom: 5px;
+        padding: 5px;
+    }
+    .newfeed {
+        /* trong trường hợp cuộn trang, 
+        nội dung nhiều thì height không dùng cũng đươc */
+        height: 300px;
+        background-color: rgb(255, 253, 250);
+        border: 1 solid lightgrey;
+        border-radius: 5px;
+        padding: 5px;
+    }
+    #sidebarright {
+        float: left;
+        width: 30%;
+        height: 500px;
+        background-color: lightgrey;
+        padding: 5px;
+    }
+    .story {
+        height: 200px;
+        background-color: rgb(255, 253, 250);
+        border: 1 solid lightgrey;
+        border-radius: 5px;
+        padding: 5px;
+        margin-bottom: 5px;
+    }
+    .page {
+        height: 300px;
+        background-color: rgb(255, 253, 250);
+        border: 1 solid lightgrey;
+        border-radius: 5px;
+        padding: 5px;
     }
 </style>
-<body>
+<body style="background-color: rgb(231, 219, 219);">
     <div id="header">Đây là header</div>
     <div id="sidebar"> Đây là nội dung trái</div>
-    <div id="stt">Đây là nơi viết stt</div>
-    <div id="newfeed">Đây là nơi xem newfeed</div>
-    <div id="stories">Đây là nội dung phải storie</div>
-    <div id="sidephai">Đây là nội dung dưới storie</div>
+    <div id="stt">
+        <div class="stt1">Viết STT</div>
+        <div class="newfeed">Newfeed</div>
+    </div>
+    <div id="sidebarright">
+        <div class="story">Xem storie</div>
+        <div class="page">Page của bạn</div>
+    </div>
 </body>
 </html>
