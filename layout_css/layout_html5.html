@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+        color: black;
+        font-size: 14px;
+    }
+    header {
+        height: 50px;
+        background-color: darkgray;
+        position: fixed;
+        width: 100%;
+        top: 0px;
+    }
+    #logo {
+        height: 100%;
+    }
+    body,p {
+        margin: 0;
+        padding: 0;
+    }
+    nav {
+        background-color: darkgreen;
+        height:30px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        position: relative;
+        top: 40px;
+        width: 100%;
+    }
+    nav ul {
+        padding: 5px;
+    } 
+    nav ul li:hover {
+        background-color: royalblue;
+        font-weight: bold;
+    }       
+    nav ul li {
+        padding: 5px;
+        display: inline;
+    }
+    nav li a{
+        text-decoration:none;
+    }
+    aside {
+        float: left;
+        width: 30%;
+        background-color: darkorange;
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+    aside div {
+        padding: 10px;
+    }
+    aside div img {
+        width: 100%;      
+    }
+    article {
+        width: 65%;
+        background-color: white;
+        float:left;
+        margin-top: 35px;
+        margin-bottom: 10px;
+        padding: 5px;
+    }
+    article #video_player,p {
+        width: 70%;
+    }
+    footer {
+        clear: both;
+        height: 30px;
+        background-color: greenyellow;
+        text-align: center;
+        padding: 10px;
+    }
+    footer p {
+        display: inline;       
+    }
+</style>
+<body>
+    <header>
+        <img id="logo" src="./cartoon.png" alt="">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Phim Hoạt Hình |</a></li>
+            <li><a href="#">Phim hoạt hình yêu thích |</a></li>
+            <li><a href="#">Nhân vật hoạt hình |</a></li>
+            <li><a href="#">Góp ý</a></li>
+        </ul>
+    </nav>
+    <aside>
+        <div>
+            <img src="https://i.ytimg.com/vi/OtaYKpTrFF8/maxresdefault.jpg" alt="doreamon">
+            <p><b>Welcome đên với khách sạn nobita</b><br>2.500.000 lượt xem</p>  
+            <div>channel fun</div>          
+        </div>
+        <div>
+            <img src="https://th.bing.com/th/id/OIP.YIQQJKKBoNV7LUM4ViMSsgHaEY?pid=ImgDet&rs=1" alt="doreamon 2">
+            <p><b>Welcome đên với khách sạn nobita</b><br>2.500.000 lượt xem</p>  
+            <div>channel fun</div>   
+        </div>
+    </aside>
+    <article>
+        <iframe width="684" height="385" id="video_player" src="https://www.youtube.com/embed/AHDOYVmJt9A" title="[S9] Doraemon - Tập 435 - Jaian Đấu Với Quái Vật - Hòn Đá Kỷ Lục Thế Giới - Hoạt Hình Tiếng Việt" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p><b>Welcome đến với khách sạn nobi</b>-5.320.000 lượt xem</p><br>
+        <p>Lời tựa :</p><br>
+        <p>Doraemon là tên loạt phim truyền hình anime dành cho trẻ em được sáng tạo bởi Fujiko F. Fujio và dựa trên bộ manga cùng tên. Kế thừa từ loạt phim 1973,
+             Doraemon được sản xuất bởi Shin-Ei Animation và bắt đầu công chiếu từ ngày 2 tháng 4 năm 1979 trên TV Asahi.  
+        </p>
+    </article>
+    <footer>
+        <p><b>Coppyright 2022 - Thiết kế web bởi </b></p>
+    </footer>
+
+
+</body>
+</html>
