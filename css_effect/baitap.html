@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+    .Responsive {
+        padding: 7px;
+        float: left;
+        width: 25%;
+    }
+    div.ảnh {
+        border: 2px solid rgb(192, 115, 115);
+    }
+    div.ảnh:hover {
+        border: 1px solid rgb(88, 111, 185)
+    }
+    div.ảnh img {
+        width: 100%;
+        height: auto;
+    }
+    div.content {
+        padding: 10px;
+        text-align: center;
+    }
+    @media screen and (max-width: 768px) {
+        .Responsive {
+            width: 50%;
+        }
+    }
+    @media screen and (max-width: 576px) {
+        .Responsive {
+            width: 100%;
+        }
+    }
+</style>
+<body>
+    <h1>Responsive Image Gallery</h1>
+    <h2>Resize the browser window to see the effect.</h2>
+    <div class="Responsive">
+        <div class="ảnh">
+            <a href="http://demo.codegym.vn/web/15/gallery/img_fjords.jpg">
+            <img src="http://demo.codegym.vn/web/15/gallery/img_fjords.jpg" alt="Núi" width="600" height="400">
+            </a>
+            <div class="content">Add a description of the image here</div>
+        </div>
+    </div>
+    <div class="Responsive">
+        <div class="ảnh">
+            <a href="http://demo.codegym.vn/web/15/gallery/img_fjords.jpg">
+            <img src="http://demo.codegym.vn/web/15/gallery/img_fjords.jpg" alt="Núi" width="600" height="400">
+            </a>
+            <div class="content">Add a description of the image here</div>
+        </div>
+    </div>
+    <div class="Responsive">
+        <div class="ảnh">
+            <a href="http://demo.codegym.vn/web/15/gallery/img_fjords.jpg">
+            <img src="http://demo.codegym.vn/web/15/gallery/img_fjords.jpg" alt="Núi" width="600" height="400">
+            </a>
+            <div class="content">Add a description of the image here</div>
+        </div>
+    </div>
+    <div class="Responsive">
+        <div class="ảnh">
+            <a href="http://demo.codegym.vn/web/15/gallery/img_fjords.jpg">
+            <img src="http://demo.codegym.vn/web/15/gallery/img_fjords.jpg" alt="Núi" width="600" height="400">
+            </a>
+            <div class="content">Add a description of the image here</div>
+        </div>
+    </div>
+    <div style="padding: 5px;">
+        <p>
+            This example use media queries to re-arrange 
+            the images on different screen sizes: for screens larger than 700px wide, 
+            it will show four images side by side, for screens smaller than 700px, 
+            it will show two images side by side. For screens smaller than 500px, 
+            the images will stack vertically (100%).
+        </p>
+    </div>
+</body>
+</html>
